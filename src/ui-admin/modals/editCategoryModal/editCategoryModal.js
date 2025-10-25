@@ -1,0 +1,75 @@
+
+import React, { useState } from 'react';
+import { Container, Col, Modal, Row } from 'react-bootstrap';
+import AddCategoryModalForm from "../../../jsonFiles/staticForms/service/addCategoryForm.json"
+import DynamicForm from '../../containers/dynamicForm/dynamicForm';
+import { AiOutlineEdit } from 'react-icons/ai'
+
+
+let formSchemaAddCategory = {}
+for (var j = 0; j < AddCategoryModalForm.length; j++) { formSchemaAddCategory[AddCategoryModalForm[j].titleEn] = AddCategoryModalForm[j]; }
+
+
+
+function AddCategoryModal(props) {
+
+    const [showAddCategory, setShowAddCategory] = useState(false);
+    const handleClose = () => {
+        setShowAddCategory(false)
+    };
+    const handleShowAddCategory = () => {
+        setShowAddCategory(true)
+    };
+
+    
+    
+    return (
+        <Container className={`AddCategoryModal text-center rtl`}>
+
+
+            <Row>
+                <Col >
+                    <span type="button" style={{ textDecoration: "underline" }} onClick={handleShowAddCategory}>
+                    <AiOutlineEdit />
+                    </span >
+                </Col>
+            </Row>
+
+
+
+
+            <Modal
+                show={showAddCategory}
+                onHide={handleClose}
+                backdrop="static"
+                keyboard={false}
+                animation={false}
+                size="lg"
+                className={`rtl`}
+            >
+                <Modal.Header closeButton >
+                    <Modal.Title>
+                    تعديل قطاع خدمي 
+                    </Modal.Title>
+                </Modal.Header>
+                <Modal.Body >
+                    <div id="div1" style={{ height: "75vh", position: "relative" }}>
+                        <div id="div2" style={{ maxHeight: "100%", overflow: "auto" }}>
+                            <div id="div3" style={{ height: "100%", fontSize: "smaller" }}>
+                                <span id="signupForm">
+                                    <DynamicForm
+                                        formSchema={formSchemaAddCategory}
+                                        formData={props.collection}
+                                        submitFunction={`onSubmit_EditCategory`}
+                                        buttonName="تعديل"
+                                        payload={props.payload}
+                                    ></DynamicForm>
+                                </span>
+                            </div></div></div>
+                </Modal.Body>
+            </Modal>
+        </Container >
+    );
+}
+
+export default AddCategoryModal;

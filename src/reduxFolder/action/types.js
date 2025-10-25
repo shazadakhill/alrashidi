@@ -1,0 +1,17 @@
+// search
+export const SEND_SEARCH="SEND_SEARCH";
+export const GET_SEARCH="GET_SEARCH";
+
+// authintication
+export const AUTH_START="AUTH_START";
+export const AUTH_SUCCESS="AUTH_SUCCESS";
+export const AUTH_FAIL="AUTH_FAIL";
+export const AUTH_LOGOUT="AUTH_LOGOUT";
+export const GET_TOKEN="GET_TOKEN";
+export const SET_USER_INFO="SET_USER_INFO"
+export const SET_ACCESS_EXPIRATION_DATE="SET_ACCESS_EXPIRATION_DATE"
+export const SET_REFRESH_EXPIRATION_DATE="SET_REFRESH_EXPIRATION_DATE"
+
+
+
+

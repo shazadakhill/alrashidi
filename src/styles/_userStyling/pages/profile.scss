@@ -1,0 +1,82 @@
+
+@import '../../variables/variables.scss';
+@import '../../breakpoints/breakpoints.scss';
+.profile {
+    background-color: #fbfcee;
+    
+    background-image: url("../../../assets/backgroundMobile.png");
+    background-position: start; /* Center the image */
+    background-size: 100%; /* Resize the background image to cover the entire container */
+    background-repeat: repeat-y;
+
+    box-shadow: $shadow;
+    color: $blue1;
+    position: relative;
+    padding-top:50px;
+    top: -44px;
+    width: 100%;
+
+    .dropdown-toggle::after {
+        content: none;
+    }
+    .custom-NavDropdown-Item {
+        color: $blue1 !important;
+    }
+    .nav-link {
+        color: $blue1 !important;
+    }
+    h6{
+        font-weight: bold;
+    }
+    h2{
+        color: $orange1;
+    }
+    p{
+        font-size: 14px;
+        color: $blue1;
+    }
+    .lettered-avatar {
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 82px;
+        padding-top: 30px;
+    }
+    .lettered-avatar-wrapper{
+        position:relative;
+        top: 40px;
+        margin: auto;
+    }
+@include media('<phone') {
+    /* xs Extra small <576px*/ 
+    background-color: #f8f6ef;
+
+    .lettered-avatar-wrapper{
+        position:relative;
+        top: 0px;
+        margin: auto;
+        margin-bottom: 40px;
+
+    }
+}
+@include media('>=phone', '<tablet') {
+    /* sm Small ≥576px */
+    background-color: #f8f6ef;
+
+    .lettered-avatar-wrapper{
+        position:relative;
+        top: 0px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+}
+@include media('>=tablet', '<desktop') {
+    /* md Medium ≥768px */
+
+}
+@include media('>=desktop', '<LGdesktop') {
+    /* lg Large ≥992px */
+}
+@include media('>=LGdesktop') {
+    /* xl Extra large ≥1200px */
+}
+}

@@ -1,0 +1,37 @@
+@import "../../variables/variables.scss";
+@import "../../breakpoints/breakpoints.scss";
+.servicesApplication {
+  
+    .heading {
+        margin-bottom: 0px;
+    }
+    .div {
+        margin-bottom: 50px;
+    }
+    .h4{
+        margin-bottom: 0px!important;
+        height: 0px;
+    }
+    .text1 {
+        padding: auto;
+        color: $brown;
+        line-height: 30px;
+        font-size: 20px;
+        margin-top: 0px !important;
+    }
+    @include media("<phone") {
+        /* xs Extra small <576px*/
+    }
+    @include media(">=phone", "<tablet") {
+        /* sm Small ≥576px */
+    }
+    @include media(">=tablet", "<desktop") {
+        /* md Medium ≥768px */
+    }
+    @include media(">=desktop", "<LGdesktop") {
+        /* lg Large ≥992px */
+    }
+    @include media(">=LGdesktop") {
+        /* xl Extra large ≥1200px */
+    }
+}

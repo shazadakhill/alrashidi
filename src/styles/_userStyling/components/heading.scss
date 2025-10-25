@@ -1,0 +1,85 @@
+@import "../../variables/variables.scss";
+@import "../../breakpoints/breakpoints.scss";
+.heading {
+    h1 {
+        color: $orange1;
+        margin-top: 30px;
+        // margin-bottom: 30px;
+        font-size: 38px;
+    }
+    h2 {
+        color: $blue1;
+    }
+    
+    h3 {
+        color: $brown;
+    }
+    
+    h4 {
+        color: $blue1;
+
+    }
+    
+    h5 {
+        color: $blue1;
+
+    }
+    
+    h6 {
+        color: $blue1;
+    }
+    
+    @include media("<phone") {
+        /* xs Extra small <576px*/
+        h1 {
+            font-size: 30px;
+        margin-top: 10px;
+
+        }
+        h2 {
+            font-size: 25px;
+        }
+        h3 {
+            font-size: 22px;
+        }
+        h4 {
+            font-size: 20px;
+        }
+        h5 {
+            font-size: 18px;
+        }
+        h6 {
+            font-size: 16px;
+        }
+    }
+    @include media(">=phone", "<tablet") {
+        /* sm Small ≥576px */
+        h1 {
+            font-size: 33px;
+        }
+        h2 {
+            font-size: 28px;
+        }
+        h3 {
+            font-size: 24px;
+        }
+        h4 {
+            font-size: 20px;
+        }
+        h5 {
+            font-size: 18px;
+        }
+        h6 {
+            font-size: 16px;
+        }
+    }
+    @include media(">=tablet", "<desktop") {
+        /* md Medium ≥768px */
+    }
+    @include media(">=desktop", "<LGdesktop") {
+        /* lg Large ≥992px */
+    }
+    @include media(">=LGdesktop") {
+        /* xl Extra large ≥1200px*/
+    }
+}

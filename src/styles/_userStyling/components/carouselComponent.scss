@@ -1,0 +1,23 @@
+@import "../../variables/variables.scss";
+@import "../../breakpoints/breakpoints.scss";
+.carouselComponent {
+    padding: 20px;
+    a {
+        color: $brown;
+    }
+    @include media("<phone") {
+        /* xs Extra small <576px*/
+    }
+    @include media(">=phone", "<tablet") {
+        /* sm Small ≥576px */
+    }
+    @include media(">=tablet", "<desktop") {
+        /* md Medium ≥768px */
+    }
+    @include media(">=desktop", "<LGdesktop") {
+        /* lg Large ≥992px */
+    }
+    @include media(">=LGdesktop") {
+        /* xl Extra large ≥1200px */
+    }
+}

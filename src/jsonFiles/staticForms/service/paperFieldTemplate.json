@@ -1,0 +1,64 @@
+{
+    "fieldTitle": {
+        "id": 1,
+        "titleEn": "title",
+        "titleAr": "الاسم",
+        "title": "الاسم",
+        "required": true,
+        "inputType": "text",
+        "type": 1
+    },
+    "fieldRequired": {
+        "id": 2,
+        "inputType": "select",
+        "titleEn": "required",
+        "titleAr": "مطلوب",
+        "title": "مطلوب",
+        "required": true,
+        "options": [
+            {
+                "label": "no",
+                "value": false
+            },
+            {
+                "label": "yes",
+                "value": true
+            }
+        ]
+    },
+    "fieldType": {
+        "id": 3,
+        "inputType": "select",
+        "titleEn": "type",
+        "titleAr": "نوع النص",
+        "title": "نوع النص",
+        "required": true,
+        "options": [
+            {
+                "label": "نص قصير",
+                "value": 1
+            },
+            {
+                "label": "نص طويل",
+                "value": 2
+            },
+            {
+                "label": "رقم",
+                "value": 3
+            },
+            {
+                "label": "تاريخ",
+                "value": 4
+            }
+        ]
+    },
+    "fieldPriority": {
+        "id": 4,
+        "titleEn": "priority",
+        "titleAr": "الاولوية",
+        "title": "الاولوية",
+        "required": false,
+        "inputType": "text",
+        "type": 3
+    }
+}

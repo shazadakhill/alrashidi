@@ -1,0 +1,45 @@
+@import "../../variables/variables.scss";
+@import "../../breakpoints/breakpoints.scss";
+
+.home {
+    // background-image: url("../../../assets/background.jpg");
+    // background-position: center; /* Center the image */
+    // background-size: 100%; /* Resize the background image to cover the entire container */
+    // background-repeat: repeat-y;
+    .header {
+        margin-bottom: 100px !important;
+    }
+
+    .homeDiv1 {
+        margin-bottom: 100px !important;
+    }
+    .div {
+        margin-bottom: 120px;
+    }
+    @include media("<phone") {
+        /* xs Extra small <576px*/
+        position: relative;
+        top: -44px;
+    }
+    @include media(">=phone", "<tablet") {
+        /* sm Small ≥576px */
+        position: relative;
+        top: -44px;
+        
+    }
+    @include media(">=tablet", "<desktop") {
+        /* md Medium ≥768px */
+        position: relative;
+        top: -100px;
+    }
+    @include media(">=desktop", "<LGdesktop") {
+        /* lg Large ≥992px */
+        position: relative;
+        top: -100px;
+    }
+    @include media(">=LGdesktop") {
+        /* xl Extra large ≥1200px */
+        position: relative;
+        top: -100px;
+    }
+}

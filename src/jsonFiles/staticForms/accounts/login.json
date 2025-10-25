@@ -1,0 +1,16 @@
+[
+    {
+        "titleEn": "phone",
+        "titleAr": "رقم الموبايل",
+        "title": "رقم الموبايل",
+        "required": true,
+        "inputType": "text"
+    },
+    {
+        "titleEn": "password",
+        "titleAr": "كلمة السر",
+        "title": "كلمة السر",
+        "required": true,
+        "inputType": "text"
+    }
+]

@@ -1,0 +1,100 @@
+@import "./variables/variables.scss";
+@import "./breakpoints/breakpoints.scss";
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: $english !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+.App {
+    text-align: center;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+    color: $brown;
+    box-shadow: $shadow;
+    min-height: 100%;
+}
+.App:hover {
+    @include shadowOnHover(0.3);
+}
+.mainAdminLayout {
+    padding-top: 100px;
+    min-height: 100vh;
+    background-image: url("../assets/background.jpg");
+    background-position: center; /* Center the image */
+    background-size: 100%; /* Resize the background image to cover the entire container */
+    background-repeat: repeat-y;
+    padding-bottom: 50px;
+    @include media("<phone") {
+        /* xs Extra small <576px*/
+        background-image: url("../assets/backgroundMobile.png");
+    }
+}
+.MainLayout {
+    padding-top: 100px;
+    min-height: 100vh;
+
+    background-image: url("../assets/background.jpg");
+    background-position: center; /* Center the image */
+    background-size: 100%; /* Resize the background image to cover the entire container */
+    background-repeat: repeat-y;
+   
+
+    @include media("<phone") {
+        /* xs Extra small <576px*/
+        background-image: url("../assets/backgroundMobile.png");
+    }
+    @include media(">=phone", "<tablet") {
+        /* sm Small ≥576px */
+    }
+    @include media(">=tablet", "<desktop") {
+        /* md Medium ≥768px */
+    }
+    @include media(">=desktop", "<LGdesktop") {
+        /* lg Large ≥992px */
+    }
+    @include media(">=LGdesktop") {
+        /* xl Extra large ≥1200px */
+    }
+}
+.subLayout ,.allApplications {
+    .nav-tabs {
+        border-bottom: 1px solid #adb3bb;
+        border-width: 2px;
+
+        a {
+            color: $blue1;
+        }
+    }
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+        color: $blue2;
+        background-color: rgb(255, 255, 255);
+        border-width: 2px;
+        border-color: $blue2 $blue2 $white1 $blue2;
+    }
+}
+
+
+.modal-open:first-of-type {
+    overflow: auto !important;
+}
+.smallerCardsContainer{
+    transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    transform-origin: top center;   
+}
+.download-table-xls-button{
+        background-color: $blue1;
+        padding: 5px 30px;
+        color: $white1;
+        border: none;
+        margin: 30px;
+}
+.download-table-xls-button:hover {
+    background-color: $blue2;
+    padding: 5px 30px;
+    color: $white1;
+    border: none;
+}

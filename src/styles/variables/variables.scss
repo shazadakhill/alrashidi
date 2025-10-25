@@ -1,0 +1,24 @@
+// colors
+$blue1: rgb(8, 36, 68); //nav and foooter color
+$blue2: rgb(13, 60, 119); //divs color
+$orange1: rgb(184, 148, 39); // main heading
+$orange2: rgb(251, 210, 85); //divs color
+$brown: rgb(77, 70, 48); //secondry heading
+$white1: rgb(255, 255, 255); //normal white
+$white2: rgba(255, 255, 255, 0.55); //normal white
+$black: rgb(0, 0, 0); //normal black
+
+
+//fonts
+// $english: "Libre Baskerville", arial,serif;
+$english: 'Noto Kufi Arabic', sans-serif;
+
+//shadows
+$shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+$shadowOnHover: 0 3px 5px rgba(0, 0, 0, 0.3);
+
+//styles
+@mixin shadowOnHover($opacity) {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, $opacity);
+    transition: box-shadow 0.25s ease-in-out;
+}

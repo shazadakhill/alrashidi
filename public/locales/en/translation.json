@@ -1,0 +1,180 @@
+{
+    "style": {
+        "language": "en",
+        "rtl": "",
+        "vNav": {
+            "sideMenu": " left"
+        }
+    },
+    "userNavbar": {
+        "brandName": "Al Rashidi",
+        "home": "home",
+        "about": "about",
+        "services": "services",
+        "languageAr": "arabic",
+        "languageEn": "english",
+        "contactUs": "contact",
+        "aboutUs": "about us",
+        "search": "search",
+        "language": "language",
+        "signup": "signup",
+        "logout": "log out",
+        "profile": "profile",
+        "myapplications": "my applications",
+        "availableApplications": "available applications",
+        "assignedApplications": "my assigned applications",
+        "dashboard": "admin dashboard"
+    },
+    "userFooter": {
+        "aboutUs": "about us",
+        "contact": "contact",
+        "contactUs": "contact",
+        "explore": "explore",
+        "home": "home",
+        "policy": "privacy policy ",
+        "services": "services",
+        "followUs": "follow us",
+        "backToTop": "back to top",
+        "rights": "© alrashidi.com , All Rights Reserved."
+    },
+    "headerNav": {
+        "services": "services",
+        "aboutUs": "about us",
+        "policy": "privacy policy",
+        "application": "mobile app",
+        "androidLink":"android application link",
+        "iosLink":"ios application link",
+        "link":"link"
+    },
+    "homeDiv1": {
+        "content": " the easiest way to make your applications from home"
+    },
+    "homeDiv2": {
+        "content": "with more than 20000 visitors"
+    },
+    "carousel": {
+        "heading": "Services Collection",
+        "viewAll": "view all"
+    },
+    "aboutUs": {
+        "heading": "about us",
+        "createdBy": "webssite created by"
+    },
+    "privacyPolicy": {
+        "heading": "privacy policy"
+    },
+    "servicesApplication": {
+        "submitNote1": "application submited successfuly... please pay the application fee on AL Haram through this code...",
+        "submitNote2": " so we can start with the process.. and we will contact you to confirm before",
+        "submitNote3": "note: you can always get the (payment code).. through signing in then going to(my applications) then (view entered data)"
+    },
+    "form": {
+        "policy": "privacy policy ",
+        "signup": "signup",
+        "login": "login",
+        "makeApplication": "make application",
+        "confirm": "confirm",
+        "activate": "Activate Now",
+        "resend": "resend activation",
+        "forgotPassword": "forgot password??",
+        "resetPasswordRequest": "please enter the phone number you used to signup",
+        "enterNewPassword": "enter a new password",
+        "confirmYouPassword":" confirm your password",
+        "enterNewPhone": "enter the new phone",
+        "check": "activation code has been sent to your mobile number",
+        "sucssessActivation": "account activated successfully",
+        "sucssessChangePassword": "password is changed successfully",
+        "loginAgain": "please log in again to continue",
+        "send": "send message",
+        "submitted": "submitted",
+        "submit": "submit",
+        "choose": "choose",
+        "accept": "accept ",
+        "close": "close",
+        "continue": "continue",
+        "loginNote": "if you don't have an account.. click here: ",
+        "signupNote": "if you already have an activated account.. click here: ",
+        "activateNote": "account activation.. ",
+        "resetPasswordNote":"click here to continue changing your password",
+        "emptyError": "can't leave this empty",
+        "emailError": "please enter a valid email address",
+        "maxCharactersError": "maximum characters allowed is ",
+        "minCharactersError": "minimum characters allowed is ",
+        "numberError": "you must specify a number",
+        "passwordDescription":"please choose a password that consists of at least 8 characters that are a combination of letters in both uppercase and lowercase, numbers and symbols,and dosen't contain username or real name."
+
+    },
+    "contactUs": {
+        "heading1": "contact us",
+        "heading2": "contact info",
+        "companyAddress": "Company Address",
+        "phoneNumber": "phone number",
+        "emailAddress": "email address"
+    },
+    "card": {
+        "makeApplication": "make application",
+        "view": "view details "
+    },
+    "userApplication": {
+        "enteredInfo": "view entered data",
+        "assignApplication": "assign application to me",
+        "notEnteredYet": "not entered yet",
+        "enterdData": "enterd data:",
+        "applicantInfo":"applicant info: ",
+        "fullName":"full name: ",
+        "nationalId": "nationalId: ",
+        "phone": "mobile number: ",
+
+        "details": "details:",
+        "created_at": "created_at:",
+        "assigned_at": "assigned_at:",
+        "accepted_at": "accepted_at:",
+        "done_at": "done_at:",
+        "payed_at": "payed_at:",
+        "payment_code": "payment_code:",
+        "assigned": "the application assigned to you successfully"
+    },
+    "profile": {
+        "email": "email",
+        "username": "username",
+        "fullName": "fullName",
+        "nationalId": "nationalId",
+        "phone": "phone",
+        "zone": "zone",
+        "changePassword":"change account password",
+        "changePhone":"change account Phone",
+        "deleteAccount":"delete my account"
+    },
+    "serviceDetails": {
+        "heading1": "service details",
+        "heading2": "required documents",
+        "heading3": "cost",
+        "coin": "S.P",
+        "nothinRequired": "ther is no required documents"
+    },
+    "serviceApplication": {
+        "heading1": "application for :",
+        "continue": "continue"
+    },
+    "userMyApplications": {
+        "heading1": "my applications"
+    },
+    "employeeAssignedApplications": {
+        "heading1": "assigned applications"
+    },
+    "status": {
+        "status1": "await for payment",
+        "status2": "await for assigning to emloyee",
+        "status3": "await for acceptance",
+        "status4": "in progress",
+        "status5": "rejected",
+        "status6": "finished",
+        "updateApplicationStatus": "update application status"
+    },
+    "searching": {
+        "notFound": "NO RESULTS FOUND",
+        "searchFor": "Search for",
+        "num": "number of results",
+        "view": "view details "
+    }
+}

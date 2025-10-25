@@ -1,0 +1,71 @@
+@import "../../variables/variables.scss";
+@import "../../breakpoints/breakpoints.scss";
+.headerNav {
+    position: relative;
+    top: -170px;
+    .heading{
+        height: 50px;
+    }
+    .option {
+        background-color: rgba(255, 255, 255, 0.973);
+        color: $blue1;
+        padding:0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        box-shadow: $shadow;
+    }
+    div.col{
+        padding: 0px!important;
+    }
+    svg {
+        fill: $blue1;
+        height: 70px;
+    }
+    h5 {
+        font-size: 18px !important;
+    }
+    .option:hover {
+        background-color: $blue2;
+        color: $white1 !important;
+        transform: scale(110%);
+        z-index: 100;
+        transition: transform 0.3s ease-in-out;
+        svg {
+            fill: $white1;
+        }
+        h5 {
+            color: $white1 !important;
+        }
+    }
+
+    @include media("<phone") {
+        /* xs Extra small <576px*/
+        svg {
+            height: 40px;
+        }
+        h5 {
+            font-size: 13px !important;
+        }
+        .heading{
+            height: 50px;
+        }
+    }
+    @include media(">=phone", "<tablet") {
+
+        svg {
+            height: 50px;
+        }
+    }
+    @include media(">=tablet", "<desktop") {
+        /* md Medium ≥768px */
+        svg {
+            height: 60px;
+        }
+    }
+    @include media(">=desktop", "<LGdesktop") {
+        /* lg Large ≥992px */
+    }
+    @include media(">=LGdesktop") {
+        /* xl Extra large ≥1200px */
+    }
+}

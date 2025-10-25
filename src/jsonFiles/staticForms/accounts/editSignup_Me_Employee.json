@@ -1,0 +1,26 @@
+[
+    {
+        "titleEn": "fullName",
+        "titleAr": "الاسم الكامل",
+        "title": "الاسم الكامل",
+        "required": true,
+        "inputType": "text",
+        "type": 1
+    },
+    {
+        "titleEn": "nationalId",
+        "titleAr": "الرقم الوطني",
+        "title": "الرقم الوطني",
+        "required": false,
+        "inputType": "text",
+        "type": 1
+    },
+    {
+        "inputType": "select",
+        "titleEn": "zone",
+        "titleAr": "المنطقة",
+        "title": "المنطقة",
+        "required": false,
+        "options": []
+    }
+]

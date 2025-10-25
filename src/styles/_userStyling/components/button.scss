@@ -1,0 +1,51 @@
+@import "../../variables/variables.scss";
+@import "../../breakpoints/breakpoints.scss";
+.button {
+    button {
+        background-color: $blue1;
+        padding: 5px 30px;
+        color: $white1;
+        border: none;
+        margin: 30px;
+    }
+    button:hover {
+        background-color: $blue2;
+        padding: 5px 30px;
+        color: $white1;
+        border: none;
+    }
+    button:disabled,
+    button[disabled] {
+      opacity: 50%;
+    }
+
+    .ldio-2aho3mncatn div {
+        position: absolute;
+        top: 1px;
+        left: 1px;
+    }
+
+    .loadingio-spinner-eclipse-hnfseqxtkuq {
+        width: 14px;
+        height: 14px;
+    }
+    .ldio-2aho3mncatn {
+        transform: translateZ(0) scale(0.23);
+    }
+
+    @include media("<phone") {
+        /* xs Extra small <576px*/
+    }
+    @include media(">=phone", "<tablet") {
+        /* sm Small ≥576px */
+    }
+    @include media(">=tablet", "<desktop") {
+        /* md Medium ≥768px */
+    }
+    @include media(">=desktop", "<LGdesktop") {
+        /* lg Large ≥992px */
+    }
+    @include media(">=LGdesktop") {
+        /* xl Extra large ≥1200px */
+    }
+}

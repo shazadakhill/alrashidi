@@ -1,0 +1,143 @@
+// @import "bootstrap/dist/css/bootstrap.min.css";
+@import "../../variables/variables.scss";
+@import "../../breakpoints/breakpoints.scss";
+
+.adminNavbar {
+    
+    .custom-Navbar {
+        background-color: $blue1;
+    }
+
+    .custom-Nav-Link {
+        color: $white1 !important;
+    }
+    .custom-Nav-Link:hover,
+    .custom-Nav-Link:active,
+    .custom-Nav-Link:focus,
+    .custom-Nav-Link::selection {
+        color: $white2 !important;
+    }
+
+    .nav-link.active{
+        color: $white2 !important;
+    }
+    // .dropdown-toggle::after {
+    //     content: none;
+    // }
+    .custom-NavDropdown-Item {
+        color: $blue2 !important;
+
+    }
+    .custom-Nav-Link-dropdown {
+        color: $blue1 !important;
+       
+    }
+    .custom-Nav-Link-dropdown:hover,
+    .custom-Nav-Link-dropdown:active,
+    .custom-Nav-Link-dropdown:focus,
+    .custom-Nav-Link-dropdown::selection {
+        color: $blue2 !important;
+    }
+    .custom-Nav-Link-dropdown.nav-link.active{
+        color: $blue2 !important;
+    }
+    .custom-Button {
+        color: $white1;
+        font-size: 20px;
+        border: none;
+        box-shadow: none;
+    }
+    .custom-Button:hover,
+    .custom-Button:active,
+    .custom-Button:focus,
+    .custom-Button::selection {
+        color: $white2;
+        border: none !important;
+        background-color: $blue1 !important;
+        box-shadow: none !important;
+    }
+
+    .custom-FormControl {
+        width: 80%;
+        height: calc(1.2em + 0.75rem + 2px);
+        padding: 0.275rem 0.65rem;
+        font-size: 1rem;
+        font-weight: 350;
+        line-height: 14.5;
+        color: $white1;
+        background-color: rgba(153, 127, 127, 0);
+        background-clip: padding-box;
+        border: none;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        border-radius: 0.25rem;
+    }
+    .custom-FormControl::placeholder {
+        color: rgb(255, 255, 255);
+    }
+    .custom-FormControl:hover,
+    .custom-FormControl:active,
+    .custom-FormControl:focus,
+    .custom-FormControl::selection {
+        font-weight: 350;
+        line-height: 14.5;
+        color: $white1;
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        border-bottom: 1px solid $white2;
+        box-shadow: none;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    .custom-Navbar-Brand {
+        font-size: 19px;
+    }
+
+
+    .custom-Navbar-close {
+        color: $white1;
+        font-size: 23px;
+    }
+    .lettered-avatar {
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 12px;
+    }
+
+    @include media("<phone") {
+        /* xs Extra small <576px*/
+ 
+    }
+    @include media(">=phone", "<tablet") {
+        /* sm Small ≥576px */
+
+    }
+    @include media(">=tablet", "<desktop") {
+        /* md Medium ≥768px */
+
+
+        .custom-FormControl {
+            width: 70%;
+            height: calc(0.5em + 0.75rem + 2px);
+            padding: 0.175rem 0.45rem;
+            font-size: 12px;
+            transition: ease-in-out 0.3s;
+        }
+        .custom-Button,
+        .custom-Nav-Link,
+        .custom-Navbar-Brand,
+        #basic-nav-dropdown {
+            font-size: 12.5px;
+        }
+        .custom-Navbar-Brand img {
+            width: 49.47px;
+            height: 20px;
+        }
+    }
+    @include media(">=desktop", "<LGdesktop") {
+        /* lg Large ≥992px */
+
+    }
+    @include media(">=LGdesktop") {
+        /* xl Extra large ≥1200px */
+
+    }
+}

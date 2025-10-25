@@ -1,0 +1,47 @@
+{
+    "websiteName1Ar":"الراشدي للخدمات الإدارية",
+    "websiteName1En":"الراشدي للخدمات الإدارية", 
+    "websiteName2Ar":"خدمة تعقيب المعاملات الالكترونية",
+    "websiteName2En":"",
+    "aboutUs":{
+        "title":" who are we - Al Rashidi",
+        "description":""
+    },
+    "contactUs":{
+        "title":"contact us - Al Rashidi",
+        "description":""
+    },
+    "home":{
+        "title":"home page - Al Rashidi",
+        "description":"الراشدي للخدمات الإدارية , خدمة تعقيب المعاملات الالكترونية"
+    },
+    "privacyPolicy":{
+        "title":"privacy policy - Al Rashidi",
+        "description":""
+    },
+    "searchPage":{
+        "title":"search our services - Al Rashidi",
+        "description":""
+    },
+    "servicesApplication":{
+        "title":" make application - Al Rashidi",
+        "description":""
+    },
+    "servicesCollections":{
+        "title":"services - Al Rashidi",
+        "description":"مجموعة خدمات تعقيب المعاملات الالكترونية في موقع الراشدي"
+    },
+    "servicesDetails":{
+        "title":" details - Al Rashidi",
+        "description":""
+    },
+    "servicesSubCollection":{
+        "title":"- Al Rashidi",
+        "description":""
+    },
+    "signPage":{
+        "title":"sign in - Al Rashidi",
+        "description":""
+    }
+    
+}

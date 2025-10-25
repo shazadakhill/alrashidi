@@ -1,0 +1,46 @@
+{
+    "fileTitle": {
+        "id": 1,
+        "titleEn": "title",
+        "titleAr": "الاسم",
+        "title": "الاسم",
+        "required": true,
+        "inputType": "text",
+        "type": 1
+    },
+    "fileRequired": {
+        "id": 2,
+        "inputType": "select",
+        "titleEn": "required",
+        "titleAr": "مطلوب",
+        "title": "مطلوب",
+        "required": true,
+        "options": [
+            {
+                "label": "no",
+                "value": false
+            },
+            {
+                "label": "yes",
+                "value": true
+            }
+        ]
+    },
+    "filePriority": {
+        "id": 3,
+        "titleEn": "priority",
+        "titleAr": "الاولوية",
+        "title": "الاولوية",
+        "required": false,
+        "inputType": "text",
+        "type": 3
+    },
+    "fileAttachment": {
+        "id": 4,
+        "titleEn": "attachment",
+        "titleAr": "مرفق",
+        "title": "مرفق",
+        "required": false,
+        "inputType": "file"
+    }
+}

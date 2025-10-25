@@ -1,0 +1,223 @@
+// @import "bootstrap/dist/css/bootstrap.min.css";
+@import "../../variables/variables.scss";
+@import "../../breakpoints/breakpoints.scss";
+
+.userNavbar {
+    .custom-Navbar {
+        background-color: $blue1;
+    }
+    .custom2-Navbar {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .custom-Nav-Link {
+        color: $white1 !important;
+    }
+    .custom-Nav-Link:hover,
+    .custom-Nav-Link:active,
+    .custom-Nav-Link:focus,
+    .custom-Nav-Link::selection {
+        color: $white2 !important;
+    }
+
+    #basic-nav-dropdown {
+        color: $white1 !important;
+    }
+    #basic-nav-dropdown:hover,
+    #basic-nav-dropdown:active,
+    #basic-nav-dropdown:focus,
+    #basic-nav-dropdown::selection {
+        color: $white2 !important;
+    }
+    .nav-link.active{
+        color: $white2 !important;
+    }
+    .dropdown-toggle::after {
+        content: none;
+    }
+    .custom-NavDropdown-Item {
+        color: $blue2 !important;
+    }
+
+    .custom-Button {
+        color: $white1;
+        font-size: 20px;
+        border: none;
+        box-shadow: none;
+    }
+    .custom-Button:hover,
+    .custom-Button:active,
+    .custom-Button:focus,
+    .custom-Button::selection {
+        color: $white2;
+        border: none !important;
+        background-color: $blue1 !important;
+        box-shadow: none !important;
+    }
+
+    .custom-FormControl {
+        width: 80%;
+        height: calc(1.2em + 0.75rem + 2px);
+        padding: 0.275rem 0.65rem;
+        font-size: 1rem;
+        font-weight: 350;
+        line-height: 14.5;
+        color: $white1;
+        background-color: rgba(153, 127, 127, 0);
+        background-clip: padding-box;
+        border: none;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        border-radius: 0.25rem;
+    }
+    .custom-FormControl::placeholder {
+        color: rgb(255, 255, 255);
+    }
+    .custom-FormControl:hover,
+    .custom-FormControl:active,
+    .custom-FormControl:focus,
+    .custom-FormControl::selection {
+        font-weight: 350;
+        line-height: 14.5;
+        color: $white1;
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        border-bottom: 1px solid $white2;
+        box-shadow: none;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    .custom-Navbar-Brand {
+        font-size: 19px;
+    }
+    .VNav .custom-Navbar {
+        border-bottom: $brown 1px solid;
+    }
+    .left {
+        height: 100%;
+        display: inline-block;
+        position: fixed !important;
+        top: 0px;
+        left: 0px;
+        z-index: 1100;
+        background-color: $blue1 !important;
+        border-right: $brown 1px solid;
+        overflow-x: hidden;
+        padding-top: 20px;
+        width: 0px;
+        -webkit-transition: 0.5s ease-in-out;
+        -moz-transition: 0.5s ease-in-out;
+        -o-transition: 0.5s ease-in-out;
+        transition: 0.5s ease-in-out;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .left .show {
+        transition: none;
+    }
+
+    .right {
+        height: 100%;
+        width: 0px;
+        display: inline-block;
+        position: fixed !important;
+        top: 0px;
+        right: 0px;
+        z-index: 1100;
+        background-color: $blue1 !important;
+        border-left: $brown 1px solid;
+        overflow-x: hidden;
+        padding-top: 20px;
+        -webkit-transition: 0.4s ease-in-out;
+        -moz-transition: 0.4s ease-in-out;
+        -o-transition: 0.4s ease-in-out;
+        transition: 0.4s ease-in-out;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .right .show {
+        transition: none;
+    }
+
+    .custom-Navbar-close {
+        color: $white1;
+        font-size: 23px;
+    }
+    .lettered-avatar {
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 12px;
+    }
+    @include media("<phone") {
+        /* xs Extra small <576px*/
+        .HNav {
+            display: none;
+        }
+        .VNav {
+            .col {
+                // padding: 0px;
+
+                // margin: 0px;
+
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .custom-Nav-Link {
+                font-size: 14px;
+                padding: 0px;
+            }
+        }
+    }
+    @include media(">=phone", "<tablet") {
+        /* sm Small ≥576px */
+        .HNav {
+            display: none;
+        }
+        .VNav {
+            .col {
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            .custom-Nav-Link {
+                font-size: 16px;
+                padding: 0px;
+            }
+        }
+    }
+    @include media(">=tablet", "<desktop") {
+        /* md Medium ≥768px */
+        .VNav {
+            display: none;
+        }
+
+        .custom-FormControl {
+            width: 70%;
+            height: calc(0.5em + 0.75rem + 2px);
+            padding: 0.175rem 0.45rem;
+            font-size: 12px;
+            transition: ease-in-out 0.3s;
+        }
+        .custom-Button,
+        .custom-Nav-Link,
+        .custom-Navbar-Brand,
+        #basic-nav-dropdown {
+            font-size: 12.5px;
+        }
+        
+        // .custom-Navbar-Brand img {
+        //     width: 49.47px;
+        //     height: 20px;
+        // }
+    }
+    @include media(">=desktop", "<LGdesktop") {
+        /* lg Large ≥992px */
+        .VNav {
+            display: none;
+        }
+    }
+    @include media(">=LGdesktop") {
+        /* xl Extra large ≥1200px */
+        .VNav {
+            display: none;
+        }
+    }
+}

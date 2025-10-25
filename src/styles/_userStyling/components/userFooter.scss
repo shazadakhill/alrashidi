@@ -1,0 +1,125 @@
+@import "../../variables/variables.scss";
+@import "../../breakpoints/breakpoints.scss";
+
+.userFooter {
+    background-color: $blue1;
+
+    .custom-Footer {
+        background-color: $blue1;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .heading {
+        color: $white1;
+        font-size: 20px !important;
+        margin-top: 10px!important;
+        margin-bottom: 15px!important;
+    }
+
+    .custom-Footer-Item {
+        color: $white1 !important;
+        font-size: 15px;
+        // font-weight: lighter;
+        margin: 0px!important;
+        padding: 0px!important;
+        margin-top: 5px !important;
+        padding-top: 0px !important;
+    }
+    .custom-Footer-Item2 {
+        color: $white1 !important;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0px!important;
+        padding: 0px!important;
+        margin-top: 40px !important;
+        cursor: pointer;
+    }
+    .custom-Footer-Item3 {
+        color: $white2 !important;
+        font-size: 10px;
+        font-weight: lighter;
+        margin: 0px!important;
+        padding: 0px!important;
+    }
+
+
+    @include media("<phone") {
+        /* xs Extra small <576px*/
+        .heading {
+            font-size: 24px !important;
+            margin-top: 45px!important;
+            margin-bottom: 10px!important;
+        }
+    
+        .custom-Footer-Item {
+            font-size: 16px;
+            margin-top: 5px !important;
+            padding-top: 0px !important;
+        }
+        .custom-Footer-Item2 {
+            font-size: 16px;
+            margin-top: 40px !important;
+        }
+        .custom-Footer-Item3 {
+            font-size: 14px;
+        }
+    }
+    @include media(">=phone", "<tablet") {
+        /* sm Small ≥576px */
+
+        .heading {
+            font-size: 30px !important;
+            margin-top: 45px!important;
+            margin-bottom: 10px!important;
+        }
+    
+        .custom-Footer-Item {
+            font-size: 20px;
+            margin-top: 5px !important;
+            padding-top: 0px !important;
+        }
+        .custom-Footer-Item2 {
+            font-size: 20px;
+            margin-top: 40px !important;
+        }
+        .custom-Footer-Item3 {
+            font-size: 16px;
+        }
+    }
+    @include media(">=tablet", "<desktop") {
+        /* md Medium ≥768px */
+
+        .heading {
+            font-size: 16px !important;
+            margin-top: 10px!important;
+            margin-bottom: 10px!important;
+        }
+    
+        .custom-Footer-Item {
+            font-size: 12px;
+            margin-top: 5px !important;
+            padding-top: 0px !important;
+        }
+        .custom-Footer-Item2 {
+            font-size: 12px;
+            margin-top: 40px !important;
+        }
+        .custom-Footer-Item3 {
+            font-size: 10px;
+        }
+
+        .custom-Footer-Brand img {
+            width: 99px;
+            height: 40px;
+        }
+    }
+    @include media(">=desktop", "<LGdesktop") {
+        /* lg Large ≥992px */
+    }
+    @include media(">=LGdesktop") {
+        /* xl Extra large ≥1200px */
+    }
+}

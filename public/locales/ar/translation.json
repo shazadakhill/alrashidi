@@ -1,0 +1,178 @@
+{
+    "style": {
+        "language": "ar",
+        "rtl": "rtl",
+        "vNav": {
+            "sideMenu": " right"
+        }
+    },
+    "userNavbar": {
+        "brandName": "الراشدي",
+        "home": "الرئيسية",
+        "about": " حول",
+        "services": "الخدمات",
+        "languageAr": "العربية",
+        "languageEn": "الانكليزية",
+        "contactUs": "تواصل معنا",
+        "aboutUs": "من نحن",
+        "search": "ابحث",
+        "language": "اللغة",
+        "signup": "تسجيل الدخول",
+        "logout": "تسجيل الخروج",
+        "profile": "الملف الشخصي",
+        "myapplications": "طلباتي",
+        "availableApplications": "الطلبات المتاحة",
+        "assignedApplications": "الطلبات المسندة لي",
+        "dashboard": "لوحة الادارة"
+    },
+    "userFooter": {
+        "aboutUs": "من نحن",
+        "contact": "للتواصل",
+        "contactUs": "تواصل معنا",
+        "explore": "تصفح موقعنا",
+        "home": "الرئيسية",
+        "policy": "سياسة الخصوصية ",
+        "services": "الخدمات",
+        "followUs": "تابعنا",
+        "backToTop": "العودة للأعلى",
+        "rights": " جميع الحقوق محفوظة لموقع  الراشدي  ©"
+    },
+    "headerNav": {
+        "services": "مجموعة الخدمات",
+        "aboutUs": "من نحن",
+        "policy": "سياسة الخصوصية ",
+        "application": "تطبيق الهاتف",
+        "androidLink":"رابط التطبيق لأجهزة الاندرويد",
+        "iosLink":"رابط التطبيق لاجهزة ios",
+        "link":"الرابط"
+    },
+    "homeDiv1": {
+        "content": "الطريقة الأسهل لتقدم طلباتك من المنزل"
+    },
+    "homeDiv2": {
+        "content": "مع اكثر من 20000 زائر"
+    },
+    "carousel": {
+        "heading": "مجموعة الخدمات",
+        "viewAll": "عرض الكل"
+    },
+    "aboutUs": {
+        "heading": "تعرف علينا",
+        "createdBy": "تم إنشاء الموقع بواسطة "
+    },
+    "privacyPolicy": {
+        "heading": "سياسة الخصوصية وشروط الاستخدام"
+    },
+    "servicesApplication": {
+        "submitNote1": "... تم ارسال طلبك بنجاح... الرجاء القيام بدفع اتعاب الطلب الذي قدمته في الهرم من خلال الكود التالي",
+        "submitNote2": "حتى تتم عملية تدقيق الطلب والعمل به ..وسيتم التواصل معك  للتاكيد قبل البدء او الاستفسار عن أي تفاصيل اضافية",
+        "submitNote3": "ملاحظة: يمكنك الرجوع ل(كود الدفع) في اي وقت من خلال (تسجيل الدخول) ثم (طلباتي) ثم عرض البيانت المدخلة"
+    },
+    "form": {
+        "policy": "سياسة الخصوصية ",
+        "signup": "انشاء حساب ",
+        "login": " تسجيل الدخول",
+        "makeApplication": "تقديم طلب",
+        "confirm": "تأكيد",
+        "activate": "تفعيل الآن",
+        "resend": "اعادة ارسال رمز التفعيل",
+        "forgotPassword": "هل نسيت كلمة السر؟؟",
+        "resetPasswordRequest": "الرجاء ادخال رقم الموبايل المستخدم في التسجيل",
+        "enterNewPassword": "أدخل كلمة السر الجديدة",
+        "confirmYouPassword":" ادخل كلمة السر للمتابعة",
+        "enterNewPhone": "ادخل الرقم الجديد",
+        "check": "تم ارسال رمز التفعيل الى رقمك",
+        "sucssessActivation": "تم تفعيل الحساب بنجاح",
+        "sucssessChangePassword": "تم تغيير كلمة السر بنجاح",
+        "loginAgain": "يرجى تسجيل الدخول للمتابعة",
+        "send": "إرسال",
+        "submitted": "تم الإرسال",
+        "submit": "تأكيد",
+        "choose": "اختر",
+        "accept": "أوافق ",
+        "close": "إغلاق",
+        "continue": "متابعة",
+        "loginNote": " لاتملك حساب.. اضغط هنا: ",
+        "signupNote": "هل لديك حساب مفعّل بالفعل.. اضغط هنا: ",
+        "activateNote": "تفعيل الحساب..  ",
+        "resetPasswordNote":"اضغط هنا لاكمال تغيير كلمة السر الخاصة بك",
+        "emptyError": "لايمكن ترك هذا الحقل فارغا",
+        "emailError": "الرجاء إدخال عنوان بريد صالح",
+        "maxCharactersError": " الحد الأقصى لعدد الحروف",
+        "minCharactersError": " الحد الأدنى لعدد الحروف",
+        "numberError": "يجب ان تدخل رقماً",
+        "passwordDescription":" الرجاء اختيار كلمة سر يبلغ طولها ثمانية أحرف على الأقل, لا تحتوي على اسم المستخدم أو الاسم الحقيقي, تحتوي على أحرف كبيرة وأحرف صغيرة وأرقام ورموز"
+    },
+    "contactUs": {
+        "heading1": "تواصل معنا",
+        "heading2": "معلومات التواصل",
+        "companyAddress": "عنوان الشركة",
+        "phoneNumber": "رقم الهاتف",
+        "emailAddress": "البريد الإلكتروني"
+    },
+    "card": {
+        "makeApplication": "تقديم طلب",
+        "view": "عرض التفاصيل"
+    },
+    "userApplication": {
+        "enteredInfo": "عرض البيانات المدخلة",
+        "assignApplication": "تعيين الطلب لي",
+        "notEnteredYet": "لم يتم ادخاله بعد",
+        "enterdData": "البيانات المدخلة:",
+        "applicantInfo":" بيانات  مقدم الطلب: ",
+        "fullName":"الاسم الكامل: ",
+        "nationalId": "الرقم الوطني:",
+        "phone": "رقم الموبايل:",
+        "details": "التفاصيل:",
+        "created_at": "تاريخ الانشاء:",
+        "assigned_at": "تاريخ استلام الطلب:",
+        "accepted_at": "تاريخ قبول الطلب:",
+        "done_at": "تاريخ الانتهاء:",
+        "payed_at": "تاريخ دفع الاتعاب:",
+        "payment_code": "كود الدفع:",
+        "assigned": "تم اسناد الطلب اليك بنجاح"
+    },
+    "profile": {
+        "email": "البريد الالكتروني",
+        "username": "اسم المستخدم",
+        "fullName": "الاسم الكامل",
+        "nationalId": "الرقم الوطني",
+        "phone": "رقم الموبايل",
+        "zone": "المنطقة",
+        "changePassword":"تغيير كلمة السر",
+        "changePhone":"تغيير رقم الموبايل المستخدم في التسجيل",
+        "deleteAccount":"حذف حسابي"
+    },
+    "serviceDetails": {
+        "heading1": "شرح عن الخدمة",
+        "heading2": "الوئاثق المطلوبة",
+        "heading3": "كلفة الإنجاز",
+        "coin": "ل.س",
+        "nothinRequired": "لايوجد وثائق مطلوبة"
+    },
+    "serviceApplication": {
+        "heading1": "تقديم خدمة :",
+        "continue": "متابعة"
+    },
+    "userMyApplications": {
+        "heading1": "طلباتي"
+    },
+    "employeeAssignedApplications": {
+        "heading1": "الطلبات المسندة الي"
+    },
+    "status": {
+        "status1": "بانتظار الدفع",
+        "status2": "بانتظار استلام الموظف المسؤول",
+        "status3": "بانتظار قبول الطلب",
+        "status4": "قيد العمل",
+        "status5": "مرفوض",
+        "status6": "منته",
+        "updateApplicationStatus": "تعديل حالة الطلب"
+    },
+    "searching": {
+        "notFound": "لم يتم العثور على نتائج موافقة",
+        "searchFor": "البحث عن",
+        "num": "عدد النتائج",
+        "view": "عرض التفاصيل"
+    }
+}

@@ -1,0 +1,35 @@
+@import "../../variables/variables.scss";
+@import "../../breakpoints/breakpoints.scss";
+.text1 {
+    padding: auto;
+    color: $brown;
+    line-height: 60px;
+    font-size: 20px;
+    margin-top: 10px !important;
+    .smaller {
+        font-size: 17px;
+        line-height: 40px;
+    }
+    @include media("<phone") {
+        /* xs Extra small <576px*/
+        line-height: 50px;
+        font-size: 16px;
+    }
+    @include media(">=phone", "<tablet") {
+        /* sm Small ≥576px */
+        line-height: 40px;
+        font-size: 16px;
+    }
+    @include media(">=tablet", "<desktop") {
+        /* md Medium ≥768px */
+
+        line-height: 50px;
+        font-size: 18px;
+    }
+    @include media(">=desktop", "<LGdesktop") {
+        /* lg Large ≥992px */
+    }
+    @include media(">=LGdesktop") {
+        /* xl Extra large ≥1200px */
+    }
+}

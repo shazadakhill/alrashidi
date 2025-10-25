@@ -1,0 +1,19 @@
+[
+    {
+        "id": 0,
+        "titleAr": "الاسم",
+        "title": "الاسم",
+        "titleEn": "title",
+        "required": true,
+        "inputType": "text"
+    },
+    {
+        "id": 1,
+        "titleAr": "الصورة",
+        "title": "الصورة",
+        "titleEn": "image",
+        "required": false,
+        "inputType": "file"
+    }
+
+]

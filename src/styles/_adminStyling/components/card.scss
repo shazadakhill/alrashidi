@@ -1,0 +1,105 @@
+@import "../../variables/variables.scss";
+@import "../../breakpoints/breakpoints.scss";
+
+.card1,.card2,.card3,.card4 {
+    padding: 30px;
+    font-size: 14px;
+    font: $english;
+    
+    .row,
+    .col {
+        margin: 0px;
+        padding: 0px;
+    }
+    .card-title {
+        box-shadow: $shadow;
+        padding: 8px;
+        margin: 0px;
+        font: $english;
+        font-size: 16px;
+    }
+    .card-body {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .link {
+        box-shadow: $shadow;
+        padding: 10px;
+    }
+    .link a {
+        color: black;
+    }
+    .link:hover {
+        box-shadow: $shadowOnHover;
+    }
+    .link:first-child {
+        background-color: $orange2;
+    }
+
+    .image {
+        width: 100% !important;
+        overflow: hidden;
+    }
+    .collectionName {
+        background:rgba(0, 0, 0, 0.432);
+        position: absolute;
+        right: 0px;
+        color: $white1;
+        padding: 3px 10px;
+        opacity: 0%;
+    }
+    .status {
+        background:rgb(236, 212, 139);
+        position: absolute;
+        right: 0px;
+        color: black;
+        padding: 3px 10px;
+    }
+    
+    @include media("<phone") {
+        /* xs Extra small <576px*/
+        font-size: 13px;
+
+        .imageContainer {
+            height: 40vw;
+            overflow: hidden;
+        }
+    }
+    @include media(">=phone", "<tablet") {
+        /* sm Small ≥576px */
+        font-size: 12px;
+        .imageContainer {
+            height: 22vw;
+            overflow: hidden;
+        }
+    }
+    @include media(">=tablet", "<desktop") {
+        /* md Medium ≥768px */
+        .imageContainer {
+            height: 15vw;
+            overflow: hidden;
+        }
+    }
+    @include media(">=desktop", "<LGdesktop") {
+        /* lg Large ≥992px */
+        .imageContainer {
+            height: 14vw;
+            overflow: hidden;
+        }
+    }
+    @include media(">=LGdesktop") {
+        /* xl Extra large ≥1200px */
+        .imageContainer {
+            height: 14vw;
+            overflow: hidden;
+        }
+    }
+}
+.card1:hover {
+    .collectionName {
+           
+        opacity: 100%;
+        transition: all 0.3s ease-in-out;
+    }
+}

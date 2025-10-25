@@ -1,0 +1,60 @@
+@import "../../variables/variables.scss";
+@import "../../breakpoints/breakpoints.scss";
+.loadingSpinner {
+    @keyframes ldio-2aho3mncatn {
+        0% {
+            transform: rotate(0deg);
+        }
+        50% {
+            transform: rotate(180deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    .ldio-2aho3mncatn div {
+        position: absolute;
+        animation: ldio-2aho3mncatn 0.88s linear infinite;
+        width: 60px;
+        height: 60px;
+        top: 20px;
+        left: 20px;
+        border-radius: 50%;
+        box-shadow: 0 2.8000000000000003px 0 0 $orange2;
+        transform-origin: 30px 31.4px;
+    }
+    .loadingio-spinner-eclipse-hnfseqxtkuq {
+        width: 58px;
+        height: 58px;
+        display: inline-block;
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0);
+    }
+    .ldio-2aho3mncatn {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transform: translateZ(0) scale(0.58);
+        backface-visibility: hidden;
+        transform-origin: 0 0; /* see note above */
+    }
+    .ldio-2aho3mncatn div {
+        box-sizing: content-box;
+    }
+
+    @include media("<phone") {
+        /* xs Extra small <576px*/
+    }
+    @include media(">=phone", "<tablet") {
+        /* sm Small ≥576px */
+    }
+    @include media(">=tablet", "<desktop") {
+        /* md Medium ≥768px */
+    }
+    @include media(">=desktop", "<LGdesktop") {
+        /* lg Large ≥992px */
+    }
+    @include media(">=LGdesktop") {
+        /* xl Extra large ≥1200px */
+    }
+}

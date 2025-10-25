@@ -1,0 +1,55 @@
+@import "../../variables/variables.scss";
+@import "../../breakpoints/breakpoints.scss";
+.authModal {
+    button {
+        background-color: $blue1;
+        padding: 6px 26px !important;
+        margin: 0px 0px !important;
+        color: $white1;
+        border: none;
+        margin: 30px;
+    }
+    button:hover {
+        background-color: $blue2;
+        padding: 5px 30px;
+        color: $white1;
+        border: none;
+    }
+    div.col-4 {
+        margin: 0px 0px !important;
+        padding: 0px 0px !important;
+    }
+  
+    // .text1 {
+    //     padding: auto;
+    //     color: $brown;
+    //     line-height: 60px;
+    //     font-size: 10px;}
+    @include media("<phone") {
+        /* xs Extra small <576px*/
+        button {
+            padding: 6px 16px !important;
+            margin: 0px 0px !important;
+        }
+    }
+    @include media(">=phone", "<tablet") {
+        /* sm Small ≥576px */
+        button {
+            padding: 6px 16px !important;
+            margin: 0px 0px !important;
+        }
+    }
+    @include media(">=tablet", "<desktop") {
+        /* md Medium ≥768px */
+        button {
+            padding: 6px 16px !important;
+            margin: 0px 0px !important;
+        }
+    }
+    @include media(">=desktop", "<LGdesktop") {
+        /* lg Large ≥992px */
+    }
+    @include media(">=LGdesktop") {
+        /* xl Extra large ≥1200px */
+    }
+}

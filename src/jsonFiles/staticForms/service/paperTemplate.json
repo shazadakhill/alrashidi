@@ -1,0 +1,46 @@
+{
+    "category": {
+        "id": 1,
+        "inputType": "select",
+        "titleEn": "category",
+        "titleAr": "القطاع الخدمي",
+        "title": "القطاع الخدمي",
+        "required": true,
+        "options": []
+    },
+    "title": {
+        "id": 2,
+        "titleEn": "title",
+        "titleAr": "الاسم",
+        "title": "الاسم",
+        "required": true,
+        "inputType": "text",
+        "type": 1
+    },
+    "details": {
+        "id": 3,
+        "titleEn": "details",
+        "titleAr": "التفاصيل",
+        "title": "التفاصيل",
+        "required": true,
+        "inputType": "richText"
+    },
+    "price": {
+        "id": 4,
+        "titleEn": "price",
+        "titleAr": "السعر",
+        "title": "السعر",
+        "required": true,
+        "inputType": "text",
+        "type": 1
+    },
+    "image": {
+        "id": 5,
+        "titleEn": "image",
+        "titleAr": "الصورة",
+        "title": "الصورة",
+        "required": false,
+        "inputType": "file"
+    }
+    
+}

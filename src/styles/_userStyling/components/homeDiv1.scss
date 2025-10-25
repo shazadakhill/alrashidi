@@ -1,0 +1,39 @@
+@import "../../variables/variables.scss";
+@import "../../breakpoints/breakpoints.scss";
+.homeDiv1 {
+    .pargraph {
+        align-self: center;
+        color: $brown;
+        // border-left: 10px solid $orange2;
+        padding-left: 15px;
+        font-size: 20px;
+    }
+    .pargraph:hover {
+        border-right: 10px solid $orange2;
+        padding-right: 25px;
+        padding-left: 25px;
+
+        transition: border-right 0.5s ease-in-out;
+    }
+    @include media("<phone") {
+        /* xs Extra small <576px*/
+        .pargraph {
+          margin-top: 20px;
+        }
+    }
+    @include media(">=phone", "<tablet") {
+        /* sm Small ≥576px */
+        .pargraph {
+            margin-top: 20px;
+          }
+    }
+    @include media(">=tablet", "<desktop") {
+        /* md Medium ≥768px */
+    }
+    @include media(">=desktop", "<LGdesktop") {
+        /* lg Large ≥992px */
+    }
+    @include media(">=LGdesktop") {
+        /* xl Extra large ≥1200px */
+    }
+}

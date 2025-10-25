@@ -1,0 +1,92 @@
+{
+    "privacyPoilicy": {
+        "titleEn": "privacyPoilicy",
+        "titleAr": "سياسة الخصوصية (باللغة العربية)",
+        "title": "سياسة الخصوصية (باللغة العربية)",
+        "required": true,
+        "inputType": "richText"
+    },
+    "privacyPoilicyEnglish": {
+        "titleEn": "privacyPoilicyEnglish",
+        "titleAr": "سياسة الخصوصية (باللغة الانكليزية)",
+        "title": "سياسة الخصوصية (باللغة الانكليزية)",
+        "required": true,
+        "inputType": "richText"
+    },
+    "aboutUs": {
+        "titleEn": "aboutUs",
+        "titleAr": "من نحن (باللغة العربية)",
+        "title": "من نحن (باللغة العربية)",
+        "required": true,
+        "inputType": "richText"
+    },
+    "aboutUsEnglish": {
+        "titleEn": "aboutUsEnglish",
+        "titleAr": "من نحن (باللغة الانكليزية)",
+        "title": "من نحن (باللغة الانكليزية)",
+        "required": true,
+        "inputType": "richText"
+    },
+    "address": {
+        "titleEn": "address",
+        "titleAr": "عنوان أول",
+        "title": "عنوان أول",
+        "required": true,
+        "inputType": "text",
+        "type": 1
+    },
+    "address2": {
+        "titleEn": "address2",
+        "titleAr": "عنوان ثاني",
+        "title": "عنوان ثاني",
+        "required": false,
+        "inputType": "text",
+        "type": 1
+    },
+    "email": {
+        "titleEn": "email",
+        "titleAr": " ايميل أول",
+        "title": " ايميل أول",
+        "required": true,
+        "inputType": "email"
+    },
+    "email2": {
+        "titleEn": "email2",
+        "titleAr": "ايميل ثاني",
+        "title": "ايميل ثاني",
+        "required": false,
+        "inputType": "email"
+    },
+    "number": {
+        "titleEn": "number",
+        "titleAr": "رقم أول",
+        "title": "رقم أول",
+        "required": true,
+        "inputType": "text",
+        "type": 1
+    },
+    "number2": {
+        "titleEn": "number2",
+        "titleAr": "رقم ثاني",
+        "title": "رقم ثاني",
+        "required": false,
+        "inputType": "text",
+        "type": 1
+    },
+    "iosAppLink":{
+        "titleEn": "iosAppLink",
+        "titleAr": "رابط تطبيق ios",
+        "title": "رابط تطبيق ios",
+        "required": false,
+        "inputType": "text",
+        "type": 2
+    },
+    "androidAppLink":{
+        "titleEn": "androidAppLink",
+        "titleAr": "رابط تطبيق android",
+        "title": "رابط تطبيق android",
+        "required": false,
+        "inputType": "text",
+        "type": 2
+    }
+}

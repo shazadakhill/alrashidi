@@ -1,0 +1,42 @@
+[
+    {
+        "titleEn": "phone",
+        "titleAr": "رقم الموبايل",
+        "title": "رقم الموبايل",
+        "required": false,
+        "inputType": "text",
+        "type": 1
+    },
+    {
+        "titleEn": "password",
+        "titleAr": "كلمة السر",
+        "title": "كلمة السر",
+        "required": false,
+        "inputType": "text",
+        "type": 1
+    },
+    {
+        "titleEn": "fullName",
+        "titleAr": "الاسم الكامل",
+        "title": "الاسم الكامل",
+        "required": false,
+        "inputType": "text",
+        "type": 1
+    },
+    {
+        "titleEn": "nationalId",
+        "titleAr": "الرقم الوطني",
+        "title": "الرقم الوطني",
+        "required": false,
+        "inputType": "text",
+        "type": 1
+    },
+    {
+        "inputType": "select",
+        "titleEn": "zone",
+        "titleAr": "المنطقة",
+        "title": "المنطقة",
+        "required": false,
+        "options": []
+    }
+]
